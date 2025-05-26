@@ -22,7 +22,7 @@ GameHub is a mobile application where users can discover and share game recommen
 ### 🔧 Setup
 
 ```bash
-git clone https://github.com/your-username/GameHub.git
+git clone https://github.com/paragbarsar99/GameHub.git
 cd GameHub
 cp .env.sample .env  # Fill in required Firebase & API keys
 yarn install         # or npm install
