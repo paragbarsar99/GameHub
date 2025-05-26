@@ -1,7 +1,6 @@
 // utils/cloudinaryUpload.ts
 import Config from 'react-native-config';
-const BASE_URL =
-  'https://api.cloudinary.com/v1_1/dfyusubki/upload' || Config.CLOUDINARY_URL;
+const BASE_URL = Config.CLOUDINARY_URL;
 // console.error(Config);
 const uploadToCloudinary = async (uri: string) => {
   try {
