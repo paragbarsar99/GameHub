@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1082644382447",
+    "project_id": "assignment-d18e8",
+    "storage_bucket": "assignment-d18e8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082644382447:android:85e769fc0be215d2ce511a",
+        "android_client_info": {
+          "package_name": "com.gamesnips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082644382447-iuiq1l4of2akdbn49gjd53bnejbe0ckl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gamesnips",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1082644382447-dpmecii2iiu6g9f20pdu6nqas3i7f13f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9dnvMzK775WWvXnDNrzy7EpCGNNrDer8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082644382447-dpmecii2iiu6g9f20pdu6nqas3i7f13f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
