@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import {Image, Pressable, ScrollView, Text} from 'react-native';
-import {launchImageLibrary} from 'react-native-image-picker';
-
 import firestore from '@react-native-firebase/firestore';
 import Button from 'components/Button';
 import Container from 'components/Container';
@@ -13,6 +11,7 @@ import {useNavigation} from '@react-navigation/native';
 import {hp, wp} from 'styles/Dimensions';
 import {UPLOAD} from 'constants/Icons';
 import {postsCollection} from 'config/firebase';
+import ImagePicker from 'utils/ImagePicker';
 
 export const Create = () => {
   const navigation = useNavigation();
@@ -25,7 +24,7 @@ export const Create = () => {
   const pickImage = async () => {
     try {
       setSelectingImage(true);
-      const result = await launchImageLibrary({mediaType: 'photo'});
+      const result = await ImagePicker({mediaType: 'photo'});
       if (result.assets && result.assets.length > 0) {
         setImageUri(result.assets[0].uri || null);
       }

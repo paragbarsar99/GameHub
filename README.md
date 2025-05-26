@@ -91,6 +91,8 @@ Hooks abstraction: All API and logic separated into reusable hooks
 
 Wrapper components: Abstracted third-party libraries for easier future replacements
 
+Using absolute imports via Babel module resolver for cleaner path management.
+
 ⚖️ Trade-Offs
 Increased initial development time due to modular and scalable setup
 
