@@ -32,7 +32,6 @@ export const Login = () => {
 
   const signInWithGoogle = () =>
     onGoogleSign(async creads => {
-      console.error(creads);
       if (!creads.userInfo?.idToken) {
         return;
       }
